@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 load_dotenv()
-
+#Aded a comment in main.py to test
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
